@@ -41,7 +41,8 @@ The FC-51 is an obstacle-avoidance sensor, not a data modem. Its IR emitter is w
 
 Notes: the RX module's own emitter is covered with tape; TX emitter faces the RX photodiode; measured indoors away from direct sunlight. Driving the module from D2 draws about 20 mA, near the pin's recommended limit.
 
-*Photo of the setup: `docs/setup.jpg`*
+<img width="2126" height="1595" alt="IMG20261009211918" src="https://github.com/user-attachments/assets/560812c5-2e00-4ac5-a375-dadf3bd7776d" />
+
 
 ## Method
 
@@ -53,7 +54,7 @@ Notes: the RX module's own emitter is covered with tape; TX emitter faces the RX
 
 ## Results: Test 2 (speed sweep)
 
-Conditions: distance ___ cm (LED to LED), RX pot at ________, lighting ________, TX driven directly from D2.
+Conditions: distance 3 cm (LED to LED), RX pot at default, lighting indoor, away from window, TX driven directly from D2.
 
 | Half-period | Equivalent rate | Expected edges/s | Measured edges/s | Mean HIGH (µs) | Mean LOW (µs) |
 |---|---|---|---|---|---|
